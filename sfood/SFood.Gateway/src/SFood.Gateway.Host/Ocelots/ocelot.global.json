@@ -1,0 +1,12 @@
+﻿{
+  "GlobalConfiguration": {
+    "BaseUrl": "http://10.15.1.75:6100",
+    "RateLimitOptions": {
+      "ClientIdHeader": "ClientId",
+      "QuotaExceededMessage": "",
+      "RateLimitCounterPrefix": "ocelot",
+      "DisableRateLimitHeaders": false,
+      "HttpStatusCode": 429
+    }
+  }
+}

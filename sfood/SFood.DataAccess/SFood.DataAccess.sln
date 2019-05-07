@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFood.DataAccess.Common", "src\SFood.DataAccess.Common\SFood.DataAccess.Common.csproj", "{034D5232-0B44-46D7-9ECC-E1541CB0D4D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFood.DataAccess.EFCore", "src\SFood.DataAccess.EFCore\SFood.DataAccess.EFCore.csproj", "{4C5FDFC3-185F-4C7D-90F3-713F613E3447}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFood.DataAccess.Models", "src\SFood.DataAccess.Models\SFood.DataAccess.Models.csproj", "{2A27CC05-B344-45EA-BF28-2F2A78C3F95E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFood.DataAccess.Infrastructure", "src\SFood.DataAccess.Infrastructure\SFood.DataAccess.Infrastructure.csproj", "{1AFC2A9F-DE21-4A18-820A-13BB1A23A573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFood.DataAccess.Migrator", "src\SFood.DataAccess.Migrator\SFood.DataAccess.Migrator.csproj", "{2BA09C7E-6AFB-45DE-9618-B0E0F5C36CB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{034D5232-0B44-46D7-9ECC-E1541CB0D4D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034D5232-0B44-46D7-9ECC-E1541CB0D4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034D5232-0B44-46D7-9ECC-E1541CB0D4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034D5232-0B44-46D7-9ECC-E1541CB0D4D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C5FDFC3-185F-4C7D-90F3-713F613E3447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C5FDFC3-185F-4C7D-90F3-713F613E3447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C5FDFC3-185F-4C7D-90F3-713F613E3447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C5FDFC3-185F-4C7D-90F3-713F613E3447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A27CC05-B344-45EA-BF28-2F2A78C3F95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A27CC05-B344-45EA-BF28-2F2A78C3F95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A27CC05-B344-45EA-BF28-2F2A78C3F95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A27CC05-B344-45EA-BF28-2F2A78C3F95E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AFC2A9F-DE21-4A18-820A-13BB1A23A573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFC2A9F-DE21-4A18-820A-13BB1A23A573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFC2A9F-DE21-4A18-820A-13BB1A23A573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFC2A9F-DE21-4A18-820A-13BB1A23A573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BA09C7E-6AFB-45DE-9618-B0E0F5C36CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA09C7E-6AFB-45DE-9618-B0E0F5C36CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA09C7E-6AFB-45DE-9618-B0E0F5C36CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA09C7E-6AFB-45DE-9618-B0E0F5C36CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0101AC0C-6AFD-4648-A8A7-2A586F88789B}
+	EndGlobalSection
+EndGlobal

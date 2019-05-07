@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "SFood.BackendService.Entry": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

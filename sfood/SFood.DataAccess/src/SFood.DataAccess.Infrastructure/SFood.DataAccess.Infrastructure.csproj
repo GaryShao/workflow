@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <VersionPrefix>1.2.9</VersionPrefix>
+    <VersionSuffix>beta1</VersionSuffix>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SFood.DataAccess.EFCore\SFood.DataAccess.EFCore.csproj" />
+    <ProjectReference Include="..\SFood.DataAccess.Models\SFood.DataAccess.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="nupkgs" />
+  </ItemGroup>
+
+</Project>

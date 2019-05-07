@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="SFood.DataAccess.EFCore" Version="1.0.0-beta6" />
+    <PackageReference Include="SFood.DataAccess.Infrastructure" Version="1.0.0-beta1" />
+    <PackageReference Include="SFood.DataAccess.Models" Version="1.0.0-beta8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SFood.BusinessInfo.Common\SFood.BusinessInfo.Common.csproj" />
+  </ItemGroup>
+
+</Project>
